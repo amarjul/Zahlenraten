@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zahlenraten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Zahlenraten</h2>
+        <p>Gib eine Zahl zwischen 1 und 100 ein:</p>
+        <input type="number" id="guess" min="1" max="100">
+        <button onclick="checkGuess()">Raten</button>
+        <button onclick="resetGame()" id="resetBtn">Neustart</button>
+        <p class="message" id="message"></p>
+    </div>
+    <script src="guessNumber.js"></script>
+</body>
+</html>
